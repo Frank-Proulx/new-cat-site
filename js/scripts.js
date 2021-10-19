@@ -10,12 +10,12 @@ $(document).ready(function() {
     } else {
       buttonMode.textContent = "Click here for Dark Mode";
     }
-
-
   });
 
-
-
+  $("p").click(function() {
+    $("p").removeClass();
+    $(this).toggleClass("highlight");
+  });
 
 
 

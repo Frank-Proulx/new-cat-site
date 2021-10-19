@@ -18,3 +18,8 @@ img {
   background-color: black;
   color: white;
 }
+
+.highlight {
+  background-color: blue;
+  border: 3px solid green;
+}
